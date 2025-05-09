@@ -2,10 +2,10 @@
 declare namespace audiolib {
 
     /**
-     * constant string value
+     * Hopefully this works
      */
     //% shim=audiolib::hello
-    function hello(): string;
+    function hello(): void;
 }
 
 // Auto-generated. Do not edit. Really.

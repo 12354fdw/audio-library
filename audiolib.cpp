@@ -1,11 +1,13 @@
-#include "pxt.h"
+ #include "pxt.h"
 #include "MicroBit.h"
+
+using namespace pxt;
+
 namespace audiolib {
     /**
-     * constant string value
+     * Hopefully this works
      */
-    //%
-    String hello() {
-        return "Hello from C++!";
+    void hello() {
+        uBit.serial.printf("Testing.");
     }
 }

@@ -6,7 +6,8 @@ namespace audiolib {
     /*
      * WHY?
      */
-    //%block="true TS side"
-    //%shim=audiolib::hello
-    export declare function helloCPPfromTS(): string;
+    //%block="hello C++ from TypeScript"
+    export function helloCPPfromTS(): void {
+        hello();
+    }
 }
