@@ -8,7 +8,5 @@ namespace audiolib {
      */
     //%block="true TS side"
     //%shim=audiolib::hello
-    export function helloCPPfromTS(): string {
-        return hello();
-    }
+    export declare function helloCPPfromTS(): string;
 }
