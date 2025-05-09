@@ -1,0 +1,27 @@
+{
+    "name": "audio-library",
+    "description": "micro:bit (V2) only",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "audiolib.cpp",
+        "audiolib.ts",
+        "shims.d.ts",
+        "enums.d.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "7.0.61",
+        "pxt": "11.4.17",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "weight": 10
+}
