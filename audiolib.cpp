@@ -1,10 +1,10 @@
 #include "MicroBit.h"
 namespace audiolib {
-    /*
-     * Always return true
+    /**
+     * constant string value
      */
-    //% block="sanity checker: always True"
-    bool alwaysTrue() {
-        return true;
+    //%
+    string hello() {
+        return "Hello from C++!";
     }
 }

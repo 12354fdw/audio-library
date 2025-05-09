@@ -1,11 +1,11 @@
 // Auto-generated. Do not edit.
-
+declare namespace audiolib {
 
     /**
-     * Audio library
+     * constant string value
      */
-    //% weight=100 color=#0fbc11 icon=""
-declare namespace audiolib {
+    //% shim=audiolib::hello
+    function hello(): string;
 }
 
 // Auto-generated. Do not edit. Really.
